@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Jovian Application Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Liter&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="navbar">
+        <img id="logo" src="https://jovian.com/jovian_logo.svg" alt="jovian logo" height="30">
+    </div>
+    <img id="banner" src="img1.jpg" alt="Banner" height="240">
+
+    <h1>
+        About Jovian</h1>
+    <div id="about">
+        <div id="description">
+            <p style="margin-top: 0;">
+               At Jovian,we're on a mission to build the world's most highly reputed technical university and we're building it completely online.we offer several beginner friendly courses that are taken by 300,000+ registered users.
+            </p>
+            <p>we also offer 2 industry-focused bootcamps:
+            <ol>
+                <li>
+                    <a href="https://lp.pwskills.com/Full-Stack-Web-Development-Version2-B?utm_source=google&utm_medium=cpc&utm_campaign=HR-Skills-Full-Stack-WOTP-India-Google-Lead-Search-CPL-Keyword-13-Jan-2024&utm_keyword=full%20stack%20web%20developer%20course&utm_adgroupid={adgroupname}&utm_matchtype=p&device=c&gad_source=1&gclid=CjwKCAiAk8G9BhA0EiwAOQxmfiLK0JHV7e-BSju4tLeUC3tPaWJvJaTg0elGFOtPcDEgpp4ghi3bOBoCm2YQAvD_BwE"
+                        target="_blank">
+                        Jovian Full Stack Developer Bootcamp
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.mygreatlearning.com/great-lakes-data-science-engineering-course?&utm_source=search&utm_medium=DS&DA-multi-data-science&utm_campaign=dseon-BCH-mi-DS-DA-multi-18-24-TROAS&adgroup_id=156990483589&campaign_id=20908184592&keyword=data%20science%20bootcamp&ad_id=686510520138&gad_source=1&gclid=Cj0KCQiAwtu9BhC8ARIsAI9JHan8TBU-L3JH5zjMHQLvCxOm3J-N5VNL2UaTB_sf4StBPO3wQiHuglAaAoeEEALw_wcB"
+                        target="_blank">
+                        Data Science Bootcamp</a>
+                </li>
+            </ol>
+            </p>
+        </div>
+        <div id="team">
+            <img id="team-image" src="team.jpg" alt="Team" height="200">
+        </div>
+    </div>
+    <h2>Job Opportunities</h2>
+    <div id="jobs">
+        <table id="jobs-table">
+            <tr class="jobs-header-row">
+                <th rowspan="2">Job Title</th>
+                <th colspan="2">Location</th>
+                <th rowspan="2">Salary</th>
+                <th rowspan="2">Posted On</th>
+            </tr>
+            <tr class="jobs-header-row">
+                <th>City</th>
+                <th>Country</th>
+            </tr>
+            <tr class="jobs-data-row">
+                <td>Frontend Developer</td>
+                <td>Bengaluru</td>
+                <td>India</td>
+                <td>₹12,00,000</td>
+                <td>Mar 3,2025</td>
+            </tr>
+            <tr class="jobs-data-row">
+                <td>Full Stack Developerr</td>
+                <td>New Delhi</td>
+                <td>India</td>
+                <td>₹15,00,000</td>
+                <td>Feb 1,2025</td>
+            </tr>
+            <tr class="jobs-data-row">
+                <td>Data Scientist</td>
+                <td>san Franciso</td>
+                <td>USA</td>
+                <td>$175,000</td>
+                <td>Dec 22,2024</td>
+            </tr>
+            <tr class="jobs-data-row">
+                <td>Machine Learning Engineer</td>
+                <td colspan="2">Remote</td>
+                <td>$80,000</td>
+                <td>sep 19,2024</td>
+            </tr>
+        </table>
+    </div>
+    <div id="application">
+      <h2>Submit Your Application</h2>
+      <!--sample form-remove later-->
+      <form id="application-form" action="https://formbold.com/s/9RdrX" method="POST" enctype="multipart/form-data">
+        <div class="form-group">
+            <label for="name"> Full Name</label><br>
+            <input type="" id="name" name="Full Name" required placeholder="Devi">
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="Email Address" required placeholder="Devi9876@gmail.com">
+        </div>
+        <div class="form-group">
+            <label for="phone">Phone</label><br>
+            <input type="tel" id="phone" name="phone" required placeholder="+917093369032">
+        </div>
+        <div class="form-group">
+            <label for="dob">Date of Birth</label><br>
+            <input type="date" id="dob" name="dob" required>
+        </div>
+        <div class="form-group">
+            <label for="position">Position Applied for</label><br>
+            <select id="position" name="Position Applied" required>
+                <option value="">Select position</option>
+                <option value="frontend">Frontend Developer</option>
+                <option value="fullstack">Full Stack Developer</option>
+                <option value="data Scientist">Data Scientist</option>
+                <option value="ml engineer">ML Engineer</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="resume">Upload Resume</label><br>
+            <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+        </div>
+        <div class="form-group">
+            <label for="coverletter">Cover Letter</label><br>
+            <textarea id="coverletter" name="coverletter" rows="5" placeholder="Explain what makes you suitable for the job.."></textarea>
+        </div>
+        <div class="form-group">
+            <label for="terms">
+                <input type="checkbox" id="terms" name="terms" required>
+                I agree to the terms and conditions
+            </label>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Submit Application">
+        </div>
+      </form>
+    </div>
+    <div id="footer">
+        <ul id="footer-links">
+            <li><a href="https://jovian.com/learn"
+                    target="_blank">
+                    Courses</a></li>
+            <li>
+                <a href="https://dictionary.cambridge.org/dictionary/english/program" target="_blank">
+                    Programs
+                </a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/" target="_blank">
+                    YouTube
+                </a>
+            </li>
+        </ul>
+        <span class="copyright">©2025,Jovian</span>
+    </div>
+</body>
+
+</html>
